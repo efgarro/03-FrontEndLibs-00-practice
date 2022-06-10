@@ -2,6 +2,8 @@ import React from "react";
 import MyComponent from "./MyComponent";
 import Counter from "./Counter";
 import ControlledInput from "./ControlledInput";
+import MyForm from "./MyForm";
+import PropsApp from "./propsApp"
 
 function App() {
   return (
@@ -10,6 +12,8 @@ function App() {
       <MyComponent />
       <Counter />
       <ControlledInput />
+      <MyForm />
+      <PropsApp />
     </main>
   );
 }
